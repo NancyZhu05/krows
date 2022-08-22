@@ -1,0 +1,45 @@
+* { 
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Source Code Pro', serif;
+    font-size:36px;
+    background-color: #d0e0e3ff;
+}
+
+.tab {
+    overflow: hidden;
+    font-size: 48px;
+    border: 1px solid #ccc;
+    background-color: #a2c4c9ff ;
+}
+
+#b1{
+    margin-right: 10px;
+}
+
+#b3{
+    margin-left: 10px;
+}
+
+.tab button {
+    font-family: 'Source Code Pro', serif;
+    background-color: #b8d2d6 ;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 40px;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+.tab button:hover {
+    background-color: #a2c4c9ff ;
+}
+
+.tab button.current {
+    background-color: #88afb4 ;
+}
