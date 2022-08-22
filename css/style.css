@@ -27,6 +27,7 @@ body{
 .tab button {
     font-family: 'Source Code Pro', serif;
     background-color: #b8d2d6 ;
+    color:white;
     float: left;
     border: none;
     outline: none;
@@ -42,4 +43,31 @@ body{
 
 .tab button.current {
     background-color: #88afb4 ;
+}
+
+.welcome{
+    margin: 45px auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-size:40px;
+    background-color:#a2c4c9ff; 
+    color:white;
+}
+ul {
+    list-style-position: inside;
+ }
+
+.instructions{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+    font-size:40px;
+    background-color:#a2c4c9ff; 
+    color:white;
+}
+
+.disclaimer{
+    font-size:20px;
 }
